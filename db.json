@@ -1,31 +1,237 @@
-{
-  "dateModif": "2020-05-04T07:23:38.421Z",
-  "id": 1,
-  "points": [
-    {
-      "abonnes": [
-        {
-          "flags": [
-            "VIP"
-          ],
-          "id": "string",
-          "infoPortage": "string",
-          "nom": "string",
-          "numero": "string",
-          "pointRevente": true,
-          "produits": [
-            "produit 1"
-          ]
-        }
-      ],
-      "adresse": "string",
-      "cp": "string",
-      "geoX": 12.51,
-      "geoY": 56.23,
-      "id": 1,
-      "ordre": 0,
-      "ville": "string"
-    }
-  ],
-  "tourneeCode": "string"
-}
+
+[
+  {
+    "id": 22,
+    "code": "LPNENEC",
+    "label": "HS NECRO",
+    "description": "HS LEPARISIEN NECRO"
+  },
+  {
+    "id": 43,
+    "code": "EQ01EQS",
+    "label": "EQUIPE SEM",
+    "description": "EQUIPE"
+  },
+  {
+    "id": 44,
+    "code": "EQ02EQD",
+    "label": "EQUIPE DIM",
+    "description": "EQUIPE DIFF DIMANCHE"
+  },
+  {
+    "id": 77,
+    "code": "AEAEAES",
+    "label": "AUJ SEM",
+    "description": "AEF"
+  },
+  {
+    "id": 78,
+    "code": "AEADAED",
+    "label": "AUJ DIM",
+    "description": "AEF DIFF DIMANCHE"
+  },
+  {
+    "id": 90,
+    "code": "LP01780",
+    "label": "LP Yvelines",
+    "description": "LEPARISIEN 78"
+  },
+  {
+    "id": 91,
+    "code": "LP01950",
+    "label": "LP Val d'Oise",
+    "description": "LEPARISIEN 95"
+  },
+  {
+    "id": 92,
+    "code": "LP01771",
+    "label": "LP S&M Nord",
+    "description": "LEPARISIEN 77"
+  },
+  {
+    "id": 94,
+    "code": "LP01910",
+    "label": "LP Essonne",
+    "description": "LEPARISIEN 91"
+  },
+  {
+    "id": 95,
+    "code": "LP01600",
+    "label": "LP Oise",
+    "description": "LEPARISIEN 60 SEMAINE"
+  },
+  {
+    "id": 96,
+    "code": "LP01920",
+    "label": "LP H de Seine",
+    "description": "LEPARISIEN 92"
+  },
+  {
+    "id": 97,
+    "code": "LP01930",
+    "label": "LP S St Denis",
+    "description": "LEPARISIEN 93"
+  },
+  {
+    "id": 98,
+    "code": "LP01940",
+    "label": "LP Val de Marne",
+    "description": "LEPARISIEN 94"
+  },
+  {
+    "id": 99,
+    "code": "LP01750",
+    "label": "LP Paris",
+    "description": "LEPARISIEN 75"
+  },
+  {
+    "id": 100,
+    "code": "LP02002",
+    "label": "LP Dim Oise",
+    "description": "LEPARISIEN 60 DIMANCHE"
+  },
+  {
+    "id": 101,
+    "code": "LP02001",
+    "label": "LP Dim IDF",
+    "description": "LEPARISIEN IDF DIMANCHE"
+  },
+  {
+    "id": 111,
+    "code": "0205051",
+    "label": "EQUIPE DIMANCHE",
+    "description": "EQUIPE VAC DIMANCHE"
+  },
+  {
+    "id": 115,
+    "code": "0204041",
+    "label": "L'EQUIPE",
+    "description": "EQUIPE VAC SEMAINE"
+  },
+  {
+    "id": 145,
+    "code": "JDJDJDI",
+    "label": "LE JDDIMANCHE",
+    "description": "LE JDD"
+  },
+  {
+    "id": 218,
+    "code": "AVASAVS",
+    "label": "AEF VAC SEMAINE",
+    "description": "AEF VAC SEMAINE"
+  },
+  {
+    "id": 219,
+    "code": "AVADAVD",
+    "label": "AEF VAC DIMANCHE",
+    "description": "AEF VAC DIMANCHE"
+  },
+  {
+    "id": 220,
+    "code": "FOFFFFO",
+    "label": "FCE FOOT",
+    "description": "FRANCE_FOOT"
+  },
+  {
+    "id": 221,
+    "code": "LB01LIB",
+    "label": "LIB",
+    "description": "LIBERATION VAC"
+  },
+  {
+    "id": 225,
+    "code": "MDMOLMO",
+    "label": "MONDE",
+    "description": "MONDE VAC SEMAINE"
+  },
+  {
+    "id": 228,
+    "code": "MDMDMMD",
+    "label": "LMD DIM",
+    "description": "MONDE"
+  },
+  {
+    "id": 230,
+    "code": "CELCLCE",
+    "label": "CANARD ENC",
+    "description": "CANARD VAC"
+  },
+  {
+    "id": 231,
+    "code": "LEECECH",
+    "label": "ECHOS",
+    "description": "LES ECHOS"
+  },
+  {
+    "id": 232,
+    "code": "PUTUTUR",
+    "label": "TURF",
+    "description": "TURF VAC SEMAINE"
+  },
+  {
+    "id": 233,
+    "code": "PUTDTUD",
+    "label": "TURF DIM",
+    "description": "PARIS TURF"
+  },
+  {
+    "id": 234,
+    "code": "LFFGFIG",
+    "label": "FIGARO",
+    "description": "FIGARO VAC"
+  },
+  {
+    "id": 236,
+    "code": "LPPMHPM",
+    "label": "HS PARIS",
+    "description": "HS LEPARISIEN PARIS"
+  },
+  {
+    "id": 239,
+    "code": "MO01MID",
+    "label": "MIDOL",
+    "description": "MIDOL"
+  },
+  {
+    "id": 240,
+    "code": "HULHLHM",
+    "label": "HUMANITE",
+    "description": "HUMANITE"
+  },
+  {
+    "id": 245,
+    "code": "LFLFLFI",
+    "label": "FIGARO",
+    "description": "LE FIGARO"
+  },
+  {
+    "id": 246,
+    "code": "LPPTPTM",
+    "label": "PATRIMOINE",
+    "description": "HS LEPARISIEN PATRIMOINE"
+  },
+  {
+    "id": 248,
+    "code": "CE01CED",
+    "label": "CAN DIFF",
+    "description": "LE CANARD ENCHAINE"
+  },
+  {
+    "id": 249,
+    "code": "LB02LDI",
+    "label": "LIBE DIFF",
+    "description": "LIBERATION"
+  },
+  {
+    "id": 257,
+    "code": "LP01SWE",
+    "label": "Samedi Week end",
+    "description": "LEPARISIEN SWE"
+  },
+  {
+    "id": 258,
+    "code": "VAJVJDV",
+    "label": "LE JOURNAL DU DIMANCHE VAC",
+    "description": "JDD VAC"
+  }
+]
